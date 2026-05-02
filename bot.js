@@ -1,10 +1,9 @@
 const mineflayer = require('mineflayer');
-
 const bot = mineflayer.createBot({
   host: 'TrineMace.aternos.me',
   port: 31986,
   username: 'TrineField',
-  version: '26.1' // Match your server version exactly
+  version: '26.1'
 });
 
 bot.on('login', () => console.log('Bot connected'));
